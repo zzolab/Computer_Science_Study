@@ -143,7 +143,7 @@ const b = new Singleton();
 하지만 두 번째 `Singleton` 인스턴스를 생성할 때 부턴 `Singleton.instance`가 존재한다. 아래는
 `Singleton.instance`의 값이다.
 
-![Singleton.instance](./image/Singleton1.png)
+![Singleton.instance](/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Image/Singleton1.png)
 
 ---
 
@@ -228,7 +228,7 @@ console.log(b.get_config());
 console.log(a === b);
 ```
 
-![Singleton](./image/Singleton2.png)
+![Singleton](/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/Image/Singleton2.png)
 
 첫 번째 콘솔에는 `develop`이 찍히는 것을, 두 번째 콘솔에는 `true`가 찍히는 것을 확인할 수 있다.
 
