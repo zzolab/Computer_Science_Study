@@ -110,3 +110,30 @@
 - ViewModel : Vue 인스턴스가 ViewModel. View에 필요한 기능, 필드을 가지고 Model과 View를 연결
 
 <img width="704" alt="image" src="https://user-images.githubusercontent.com/66233687/191009594-1a1aab96-f23b-41b4-bfd0-e1f492a5a127.png">
+
+### Vue.js MVVM 패턴 Code 예시
+
+- View
+
+```html
+<div id="app">
+  <h1>{{ message }}</h1>
+</div>
+```
+
+- ViewModel (Vue.js Instance)
+
+```jsx
+let vueInstance = new Vue({
+  el: '#app',
+  data : myData
+})
+```
+
+- Model
+
+```jsx
+var myData = {
+  'message' : 'Hello World!'
+}
+```
