@@ -188,7 +188,7 @@ const car1 = factory.create({ name: "Avante", year: 2016, price: 10000000 });
     ```
 
 4.  생성된 `Avante` 자동차의 인스턴스이다.
-    ![Factory1](/image/CS/Factory/Factory1.png)
+    ![Factory1](<img width="591" alt="Factory1" src="https://user-images.githubusercontent.com/57981252/191270533-b1b98635-106f-4613-af94-bebc81900cd0.png">)
 
 ---
 
@@ -231,7 +231,7 @@ const cars = data.map((item) => factory.create(item));
 
 인덱스4번 데이터에 해당하는 인스턴스는 생성되지 않고 나머지 자동차 인스턴스는 생성된다. `error`는 `create` 메서드 내에서 발생한 것이다.
 
-![Factory2](/image/CS/Factory/Factory2.png)
+![Factory2](![Factory2](https://user-images.githubusercontent.com/57981252/191270575-76ec94ab-c59f-4d58-ab58-e4dd7c4f9cfd.png))
 
 > 만약 `create` 메서드를 `static` 으로 정의하면 정적 메서드가 되며 이는 클래스의 인스턴트 없이 호출이 가능하게 되
 > 메모리를 절약할 수 있고 개별 인스턴스에 묶이지 않으며 클래스 내의 함수를 정의할 수 있다.
