@@ -187,7 +187,7 @@ const car1 = factory.create({ name: "Avante", year: 2016, price: 10000000 });
     }
     ```
 
-4.  생성된 `Avante` 자동차의 인스턴스이다.
+4.  생성된 `Avante` 자동차의 인스턴스이다.    
     <img width="591" alt="Factory1" src="https://user-images.githubusercontent.com/57981252/191270533-b1b98635-106f-4613-af94-bebc81900cd0.png">
 
 ---
@@ -246,11 +246,11 @@ const cars = data.map((item) => factory.create(item));
 
 도움이 많이 되었던 유튜브 🎬
 
-- 개발자가 알아야할 디자인패턴 | ep2. Factory Pattern | 자바스크립트 팩토리 패턴
+- 개발자가 알아야할 디자인패턴 | ep2. Factory Pattern | 자바스크립트 팩토리 패턴   
   [![개발자가 알아야할 디자인패턴 | ep2. Factory Pattern | 자바스크립트 팩토리 패턴](https://img.youtube.com/vi/L78FbkyOcyk/0.jpg)](https://youtu.be/L78FbkyOcyk)
-- Design pattern, Factory Pattern, 디자인패턴, 팩토리 패턴
+- Design pattern, Factory Pattern, 디자인패턴, 팩토리 패턴   
   [![Design pattern, Factory Pattern, 디자인패턴, 팩토리 패턴](https://img.youtube.com/vi/AmwEIt0vhxA/0.jpg)](https://youtu.be/AmwEIt0vhxA)
-- 디자인패턴, Factory Method Pattern, 팩토리 패턴
+- 디자인패턴, Factory Method Pattern, 팩토리 패턴    
   [![디자인패턴, Factory Method Pattern, 팩토리 패턴](https://img.youtube.com/vi/ejXUhFKcbIU/0.jpg)](https://youtu.be/ejXUhFKcbIU)
 
 ---
