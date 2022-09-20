@@ -9,6 +9,9 @@
 
 # MVC (MV + Controller)
 
+<img width="963" alt="image" src="https://user-images.githubusercontent.com/66233687/191220478-54b4b07a-f5ef-4988-99af-08a5ef04fb3e.png">
+이미지 출처: https://junhyunny.github.io/information/design-pattern/mvc-pattern/
+
 ## 개념
 
 1. **Controller : 모든 입력을 받은 후,** 로직에 따라 **Model 업데이트, View 선택**
@@ -19,7 +22,9 @@
     - View가 Polling하여 Model의 변화 감지
         
         > **polling :** 데이터 통신 방식 중 하나. 하나의 장치(또는 프로그램)가 충돌 회피 또는 동기화 처리 등을 목적으로 다른 장치(또는 프로그램)의 상태를 주기적으로 검사하여 일정한 조건을 만족할 때 송수신 등의 자료처리를 하는 방식.
-        > 
+
+## 특징 · 장점
+- 분업을 통한 유지보수성, 확장성, 유연성 증가
 
 ## 주의점 · 단점
 
@@ -58,6 +63,8 @@
 
 # MVP (MV + Presenter)
 
+<img width="651" alt="image" src="https://user-images.githubusercontent.com/66233687/191222447-78e0de47-3df5-4729-b80f-d0cce60cb206.png">
+
 ## 개념
 
 1. **View : 모든 입력은 View로 전달**
@@ -68,6 +75,8 @@
 ## 특징 · 장점
 
 - Presenter가 Model - View 사이에서 관리 → Model - View 의존성 없음
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/66233687/191224465-b24f14fa-2954-4b22-ae2e-40df0ffb362b.png">
+이미지 출처: https://medium.com/@tinmegali/model-view-presenter-mvp-in-android-part-1-441bfd7998fe
 
 ## 주의점 · 단점
 
@@ -78,6 +87,10 @@
 
 # MVVM (MV + ViewModel)
 
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/66233687/191225951-1ed5cb62-345c-47d5-9e7c-a8453a53d4fa.png">
+이미지 출처: https://devowen.com/457
+
+
 ## 개념
 
 > **View Model :** View를 추상화한 계층. View를 위한 Model. View를 나타내기 위한 데이터 처리 담당.
@@ -87,15 +100,13 @@
 3. **View Model :** **Model**에게 데이터 요청 후, 응답 받은 데이터를 가공하여 **저장**
 4. **View** : **View Model을 선택**해 **Data Binding**하여 자동 갱신됨
     
-   <img width="440" alt="image" src="https://user-images.githubusercontent.com/66233687/191009377-dd00f79b-738b-467a-9211-4cc63949cd08.png">    
-
 ## 특징 · 장점
 
 - ViewModel과 View는 1:n 관계 → ViewModel은 View를 참조하지 않음
 - Command 패턴과 Data Binding을 이용 → View와 View Model 사이의 의존성을 없앰
 
-> Command 패턴 : 객체의 메서드를 클래스로 만들어 캡슐화 하는 패턴. 어떤 객체(A)에서 다른 객체(B)의 메서드를 실행하려면 그 객체(B)를 참조하고 있어야 하는 의존성이 발생하나, 커맨드 패턴을 적용하면 의존성을 제거할 수 있음
-> 
+> Command 패턴 : 객체의 메서드를 클래스로 만들어 캡슐화 하는 패턴. 어떤 객체(A)에서 다른 객체(B)의 메서드를 실행하려면 그 객체(B)를 참조하고 있어야 하는 의존성이 발생하나, 커맨드 패턴을 적용하면 의존성을 제거할 수 있음. 
+> 참고: https://victorydntmd.tistory.com/295
 
 > Data Binding : **화면에 보이는 데이터**와 **웹 브라우저의 메모리 데이터를 일치**시키는 기법. 데이터의 일관성 유지에 탁월
 > 
