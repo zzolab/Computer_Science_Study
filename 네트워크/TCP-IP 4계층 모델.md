@@ -56,3 +56,35 @@ IP, ARP, ICMP, RARP, OSPF
 네트워크에 직접 연결된 기기 간 전송을 할 수 있도록 함.  
   
 Ethernet, PPP, Token Ring
+  
+  
+## 4계층 요약
+![image](https://user-images.githubusercontent.com/59358570/192132174-e9584f7f-2083-4521-93ea-a6ef054012c5.png)
+
+
+## 세그먼트란?
+![image](https://user-images.githubusercontent.com/59358570/192132177-8a70cbf1-8cda-4b5d-ac7a-16a83910a02a.png)
+
+
+## 3웨이 핸드셰이킹
+![image](https://user-images.githubusercontent.com/59358570/192132184-37945e56-359e-4424-942b-940a16a9c733.png)
+
+
+## 4웨이 핸드셰이킹
+![image](https://user-images.githubusercontent.com/59358570/192132189-bb69c096-c869-4c24-8e33-546c45d1fae1.png)
+
+## 패킷
+![image](https://user-images.githubusercontent.com/59358570/192132195-68fdb34a-57d8-4f7b-a0f3-a892e0c9d10b.png)
+
+## 프레임
+![image](https://user-images.githubusercontent.com/59358570/192132204-f0e896e8-90e2-40b5-9386-1ade764a5fc3.png)
+
+## 4계층 다시 보기
+![image](https://user-images.githubusercontent.com/59358570/192132215-4ebcecf7-facc-4607-a2b4-d104db90753a.png)
+
+
+## 데이터 통신이란
+![image](https://user-images.githubusercontent.com/59358570/192132222-3b432fe7-c3e9-48c3-92a1-a0adcf2d32d1.png)
+
+
+
