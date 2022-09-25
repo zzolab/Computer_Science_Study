@@ -27,12 +27,16 @@ TCP/IP계층에는 4개의 추상화된 계층이 존재한다.
    
   
 ## 애플리케이션 계층
+![image](https://user-images.githubusercontent.com/59358570/192132139-663c2ff8-2a18-4edc-b313-8ae44359c519.png)
+
 특정 서비스를 제공하기 위해 애플리케이션끼리 정보를 주고 받게 해줌.  
   
 FTP, HTTP, SSH, Telnet, SMTP, DN
   
   
 ## 전송 계층
+![image](https://user-images.githubusercontent.com/59358570/192132145-9b3917e7-40e9-448e-b434-c926bb347fcf.png)
+
 송신된 데이터를 수신측 애플리케이션에 확실히 전달하게 해줌.  
   
 TCP, UDP, RTP, RTCP, QIC
@@ -40,12 +44,15 @@ TCP, UDP, RTP, RTCP, QIC
   
    
 ## 인터넷 계층
+![image](https://user-images.githubusercontent.com/59358570/192132152-e33eedd9-ba7e-4515-8e1b-be098fafe9f6.png)
+
 수신 측까지 데이터를 전달하기 위해 사용됨.  
   
 IP, ARP, ICMP, RARP, OSPF
   
   
 ## 링크 계층
+
 네트워크에 직접 연결된 기기 간 전송을 할 수 있도록 함.  
   
 Ethernet, PPP, Token Ring
