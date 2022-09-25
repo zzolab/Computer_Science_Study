@@ -87,4 +87,6 @@ Ethernet, PPP, Token Ring
 ![image](https://user-images.githubusercontent.com/59358570/192132222-3b432fe7-c3e9-48c3-92a1-a0adcf2d32d1.png)
 
 
+## 통신의 유형
+![image](https://user-images.githubusercontent.com/59358570/192132236-e693f669-cefc-4293-a5dc-6f68bb47426d.png)
 
