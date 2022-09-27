@@ -91,8 +91,20 @@ Ethernet, PPP, Token Ring
    
 ## 데이터 통신이란
 ![image](https://user-images.githubusercontent.com/59358570/192132222-3b432fe7-c3e9-48c3-92a1-a0adcf2d32d1.png)
-  
+이 과정을 선을 통해서 하면 유선통신, 선이 없으면 무선통신
+한 방향으로 이루어지면 단방향, 양방향인데 동시에 못하면 반이중, 동시에 가능하면 전이중
   
 ## 통신의 유형
 ![image](https://user-images.githubusercontent.com/59358570/192132236-e693f669-cefc-4293-a5dc-6f68bb47426d.png)
   
+## CSMA/CA
+반이중화 통신 중 하나로, 데이터 송/수신 간 충돌을 방지하는 방식을 사용한다.
+1) 데이터 송신 전 무선 매체 살핌
+2) 캐리어 감지 : 회선이 비어있는가?
+3) IFS(Inter FrameSpcae) 랜덤한 시간만큼 기다림, 만약 무선 매체가 사용중이면 그 간격을 늘려가면서 기다림
+4) 회선이 사용 가능하면 데이터 송신
+
+## 무선 통신 기술
+- wifi
+- BSS(Basic Server Set)
+- ESS(Extended Service Set)
