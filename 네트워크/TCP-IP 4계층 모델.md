@@ -7,7 +7,7 @@ ex) 전화를 받으면 “여보세요?” 하고 받는 게 규율이다.
 인터넷은 너무도 복잡한 세계이다. 통신이 이루어지는 데 필요한 프로토콜은 매우 많다.
    
 <img src="https://user-images.githubusercontent.com/59358570/192132062-a2271420-b9e3-4980-a42c-16ba44190282.png" width="640"></img>
-   
+<br/><br/><br/>
 ## 프로토콜은 누가 규정하는가?
    
 네트워크 프로토콜 = 다른 장치들끼리 주고받기 위해 설정된 공통된 인터페이스
@@ -15,8 +15,7 @@ IEEE라는 표준화 단체가 정함
    
 ex) IEEE802.3 = 유선 LAN 프로토콜
     HTTP = 노드들이 웹 서비스를 기반으로 데이터를 주고 받음
-   
-   
+<br/><br/><br/>
 ## TCP/IP (Internet Protocol Suite, 인터넷 프로토콜 스위트)  
    
 인터넷에서 컴퓨터들이 서로 정보를 주고 받는 데 쓰이는 프로토콜의 집합
@@ -29,44 +28,38 @@ IP는 인터넷 프로토콜이다. (Internet Protocol) ⇒ IP주소 체계
 - IPv6  
    
 TCP를 기반으로 한 수많은 애플리케이션이 IP위에서 동작한다. 그래서 TCP/IP를 묶어서 지칭하는 것이다.  
-   
-   
+<br/><br/>
 ## TCP/IP의 4개의 계층
 TCP/IP계층에는 4개의 추상화된 계층이 존재한다.
 일단 무엇이 있는지만 간단히 살피고 가자.
-    
-   
+<br/><br/>
 ### 애플리케이션 계층
 <img src="https://user-images.githubusercontent.com/59358570/192407373-fb6390ab-d0f2-4c83-b19b-72d7c473cd8e.png" width="360"></img>
 
 특정 서비스를 제공하기 위해 애플리케이션끼리 정보를 주고 받게 해줌.  
    
 FTP, HTTP, SSH, Telnet, SMTP, DN
-   
-   
+<br/><br/>
 ### 전송 계층
 ![image](https://user-images.githubusercontent.com/59358570/192132145-9b3917e7-40e9-448e-b434-c926bb347fcf.png)
 
 송신된 데이터를 수신측 애플리케이션에 확실히 전달하게 해줌.  
    
 TCP, UDP, RTP, RTCP, QIC
-   
-   
+<br/><br/>
 ### 인터넷 계층
 <img src="https://user-images.githubusercontent.com/59358570/192132152-e33eedd9-ba7e-4515-8e1b-be098fafe9f6.png" width="320"></img>
 
 수신 측까지 데이터를 전달하기 위해 사용됨.  
    
 IP, ARP, ICMP, RARP, OSPF
-   
-   
+<br/><br/>
 ### 링크 계층
 
 네트워크에 직접 연결된 기기 간 전송을 할 수 있도록 함.  
    
 Ethernet, PPP, Token Ring
-   
-   
+<br/><br/><br/>
 # 4계층 상세
 ![image](https://user-images.githubusercontent.com/59358570/192132174-e9584f7f-2083-4521-93ea-a6ef054012c5.png)
 
@@ -97,8 +90,8 @@ Ethernet, PPP, Token Ring
    
 ## 데이터 통신이란
 ![image](https://user-images.githubusercontent.com/59358570/192132222-3b432fe7-c3e9-48c3-92a1-a0adcf2d32d1.png)
-이 과정을 선을 통해서 하면 유선통신, 선이 없으면 무선통신
-한 방향으로 이루어지면 단방향, 양방향인데 동시에 못하면 반이중, 동시에 가능하면 전이중
+이 과정을 선을 통해서 하면 유선통신, 선이 없으면 무선통신   
+한 방향으로 이루어지면 단방향, 양방향인데 동시에 못하면 반이중, 동시에 가능하면 전이중   
   
 ## 통신의 유형
 ![image](https://user-images.githubusercontent.com/59358570/192132236-e693f669-cefc-4293-a5dc-6f68bb47426d.png)
@@ -111,6 +104,6 @@ Ethernet, PPP, Token Ring
 4) 회선이 사용 가능하면 데이터 송신
 
 ## 무선 통신 기술
-- wifi : 전자기기들이 무선 LAN 신호에 연결할 수 있게 하는 기술. 무선 접속 장치(AP, 공유기)가 있어야 함. 
+- wifi : 전자기기들이 무선 LAN 신호에 연결할 수 있게 하는 기술. 무선 접속 장치(AP, 공유기)가 있어야 함.
 - BSS(Basic Server Set) : 동일 BSS 내에 있는 AP 장치들이 서로 통신 가능한 구조. 근거리 무선 통신 제공, 하나의 AP만을 기반으로 구축 => 사용자 이동 제약
 - ESS(Extended Service Set) : 하나 이상의 연결된 BSS그룹. 장거리 무선 통신 제공, 더 많은 가용성, 이동성 지원
