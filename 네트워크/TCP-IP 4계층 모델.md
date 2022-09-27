@@ -1,75 +1,73 @@
 ## 인터넷이란 무엇인가?
-
+   
 전 세계에 걸쳐 파일 전송 등의 데이터 통신 서비스를 받을 수 있는 컴퓨터 네트워크의 시스템
 데이터를 막 주고 받는 게 아니라 어떤 규율을 따라야 한다. 이를 프로토콜이라고 한다.
 ex) 전화를 받으면 “여보세요?” 하고 받는 게 규율이다.
-  
+   
 인터넷은 너무도 복잡한 세계이다. 통신이 이루어지는 데 필요한 프로토콜은 매우 많다.
-  
+   
 ![image](https://user-images.githubusercontent.com/59358570/192132062-a2271420-b9e3-4980-a42c-16ba44190282.png)
-  
-  
+   
+   
 ## 프로토콜은 누가 규정하는가?
-  
+   
 네트워크 프로토콜 = 다른 장치들끼리 주고받기 위해 설정된 공통된 인터페이스
 IEEE라는 표준화 단체가 정함
-  
+   
 ex) IEEE802.3 = 유선 LAN 프로토콜
     HTTP = 노드들이 웹 서비스를 기반으로 데이터를 주고 받음
-  
-  
+   
+   
 ## TCP/IP (Internet Protocol Suite, 인터넷 프로토콜 스위트)  
-
+   
 인터넷에서 컴퓨터들이 서로 정보를 주고 받는 데 쓰이는 프로토콜의 집합
 TCP와 IP를 함께 지칭하는 말이니 풀어서 생각해보자.
-  
+   
 TCP는 전송 제어 프로토콜이다. (Transmission Control Protocol) ⇒ 신뢰성 높은 데이터 송수신을 보장!  
-  
+   
 IP는 인터넷 프로토콜이다. (Internet Protocol) ⇒ IP주소 체계   
 - IPv4  
 - IPv6  
-
+   
 TCP를 기반으로 한 수많은 애플리케이션이 IP위에서 동작한다. 그래서 TCP/IP를 묶어서 지칭하는 것이다.  
-  
-  
-  
+   
+   
 ## TCP/IP의 4개의 계층
 TCP/IP계층에는 4개의 추상화된 계층이 존재한다.
 일단 무엇이 있는지만 간단히 살피고 가자.
+    
    
-  
-  
 ### 애플리케이션 계층
 ![image](https://user-images.githubusercontent.com/59358570/192407373-fb6390ab-d0f2-4c83-b19b-72d7c473cd8e.png)
 
 특정 서비스를 제공하기 위해 애플리케이션끼리 정보를 주고 받게 해줌.  
-  
+   
 FTP, HTTP, SSH, Telnet, SMTP, DN
-  
-  
+   
+   
 ### 전송 계층
 ![image](https://user-images.githubusercontent.com/59358570/192132145-9b3917e7-40e9-448e-b434-c926bb347fcf.png)
 
 송신된 데이터를 수신측 애플리케이션에 확실히 전달하게 해줌.  
-  
+   
 TCP, UDP, RTP, RTCP, QIC
-  
-  
+   
+   
 ### 인터넷 계층
 ![image](https://user-images.githubusercontent.com/59358570/192132152-e33eedd9-ba7e-4515-8e1b-be098fafe9f6.png)
 
 수신 측까지 데이터를 전달하기 위해 사용됨.  
-  
+   
 IP, ARP, ICMP, RARP, OSPF
-  
-  
+   
+   
 ### 링크 계층
 
 네트워크에 직접 연결된 기기 간 전송을 할 수 있도록 함.  
-  
+   
 Ethernet, PPP, Token Ring
-  
-  
+   
+   
 # 4계층 상세
 ![image](https://user-images.githubusercontent.com/59358570/192132174-e9584f7f-2083-4521-93ea-a6ef054012c5.png)
 
