@@ -6,12 +6,12 @@
 전달받으면 하드웨어로 연결해주며 회선(하드웨어)로부터 데이터를 받아서 우리가 받아볼 수 있게 소프트웨어 특징을
 갖는 계층으로 전달해준다.
 
-![데이터 링크 계층](./image/datalinklayer.png)
+![datalinklayerdevice](https://user-images.githubusercontent.com/57981252/192505596-a432f82d-ba8d-403a-9fd4-7507f53f4ed0.png)
 
 데이터 링크 계층에선 일단 연결된 바로 이웃 컴퓨터와의 통신만을 생각하며 **직접 연결된** 서로 다른 2개의 네트워크
 장치간 데이터 전송을 담당한다.
 
-![데이터 링크 계층2](./image/datalinklayer2.png)
+![datalinklayer2](https://user-images.githubusercontent.com/57981252/192505626-beb611f6-8e2b-4312-a509-e80ac5bf9d52.png)
 
 `네트워크 계층의 IP 프로토콜`이 하는 역할과 헷갈리지 않도록 하는 것이 중요하다. 데이터 링크 계층은 정말 단순히
 자신과 연결된 이웃 컴퓨터로 가는 역할을 하고 네트워크 계층에선 다음으로 어느쪽으로 가는지를 정해주는 역할을 한다.
