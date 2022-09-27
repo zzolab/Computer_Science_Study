@@ -6,7 +6,7 @@ ex) 전화를 받으면 “여보세요?” 하고 받는 게 규율이다.
   
 인터넷은 너무도 복잡한 세계이다. 통신이 이루어지는 데 필요한 프로토콜은 매우 많다.
   
-![image](https://user-images.githubusercontent.com/59358570/192132062-a2271420-b9e3-4980-a42c-16ba44190282.png){: width="400"}
+![image](https://user-images.githubusercontent.com/59358570/192132062-a2271420-b9e3-4980-a42c-16ba44190282.png){: width="400" height="400"}
   
   
 ## TCP/IP (Internet Protocol Suite, 인터넷 프로토콜 스위트)  
