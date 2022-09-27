@@ -8,7 +8,15 @@ ex) 전화를 받으면 “여보세요?” 하고 받는 게 규율이다.
   
 ![image](https://user-images.githubusercontent.com/59358570/192132062-a2271420-b9e3-4980-a42c-16ba44190282.png)
   
+
+## 프로토콜은 누가 규정하는가?
   
+네트워크 프로토콜 = 다른 장치들끼리 주고받기 위해 설정된 공통된 인터페이스
+IEEE라는 표준화 단체가 정함
+  
+ex) IEEE802.3 = 유선 LAN 프로토콜
+    HTTP = 노드들이 웹 서비스를 기반으로 데이터를 주고 받음
+
 ## TCP/IP (Internet Protocol Suite, 인터넷 프로토콜 스위트)  
 
 인터넷에서 컴퓨터들이 서로 정보를 주고 받는 데 쓰이는 프로토콜의 집합
@@ -105,6 +113,6 @@ Ethernet, PPP, Token Ring
 4) 회선이 사용 가능하면 데이터 송신
 
 ## 무선 통신 기술
-- wifi
-- BSS(Basic Server Set)
-- ESS(Extended Service Set)
+- wifi : 전자기기들이 무선 LAN 신호에 연결할 수 있게 하는 기술. 무선 접속 장치(AP, 공유기)가 있어야 함. 
+- BSS(Basic Server Set) : 동일 BSS 내에 있는 AP 장치들이 서로 통신 가능한 구조. 근거리 무선 통신 제공, 하나의 AP만을 기반으로 구축 => 사용자 이동 제약
+- ESS(Extended Service Set) : 하나 이상의 연결된 BSS그룹. 장거리 무선 통신 제공, 더 많은 가용성, 이동성 지원
