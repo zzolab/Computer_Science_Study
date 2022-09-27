@@ -6,7 +6,7 @@ ex) 전화를 받으면 “여보세요?” 하고 받는 게 규율이다.
   
 인터넷은 너무도 복잡한 세계이다. 통신이 이루어지는 데 필요한 프로토콜은 매우 많다.
   
-![image](https://user-images.githubusercontent.com/59358570/192132062-a2271420-b9e3-4980-a42c-16ba44190282.png){: width="400" height="400"}
+![image](https://user-images.githubusercontent.com/59358570/192132062-a2271420-b9e3-4980-a42c-16ba44190282.png)
   
   
 ## TCP/IP (Internet Protocol Suite, 인터넷 프로토콜 스위트)  
@@ -31,7 +31,7 @@ TCP/IP계층에는 4개의 추상화된 계층이 존재한다.
   
   
 ### 애플리케이션 계층
-![image](https://user-images.githubusercontent.com/59358570/192132139-663c2ff8-2a18-4edc-b313-8ae44359c519.png){: width="200"}
+![image](https://user-images.githubusercontent.com/59358570/192132139-663c2ff8-2a18-4edc-b313-8ae44359c519.png)
 
 특정 서비스를 제공하기 위해 애플리케이션끼리 정보를 주고 받게 해줌.  
   
@@ -39,7 +39,7 @@ FTP, HTTP, SSH, Telnet, SMTP, DN
   
   
 ### 전송 계층
-![image](https://user-images.githubusercontent.com/59358570/192132145-9b3917e7-40e9-448e-b434-c926bb347fcf.png){: width="200"}
+![image](https://user-images.githubusercontent.com/59358570/192132145-9b3917e7-40e9-448e-b434-c926bb347fcf.png)
 
 송신된 데이터를 수신측 애플리케이션에 확실히 전달하게 해줌.  
   
@@ -47,7 +47,7 @@ TCP, UDP, RTP, RTCP, QIC
   
   
 ### 인터넷 계층
-![image](https://user-images.githubusercontent.com/59358570/192132152-e33eedd9-ba7e-4515-8e1b-be098fafe9f6.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132152-e33eedd9-ba7e-4515-8e1b-be098fafe9f6.png)
 
 수신 측까지 데이터를 전달하기 위해 사용됨.  
   
@@ -62,37 +62,37 @@ Ethernet, PPP, Token Ring
   
   
 # 4계층 상세
-![image](https://user-images.githubusercontent.com/59358570/192132174-e9584f7f-2083-4521-93ea-a6ef054012c5.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132174-e9584f7f-2083-4521-93ea-a6ef054012c5.png)
 
 ## TCP와 UDP
-![image](https://user-images.githubusercontent.com/59358570/192132314-3f6d8191-4ddd-4b43-a969-5703e12e7681.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132314-3f6d8191-4ddd-4b43-a969-5703e12e7681.png)
   
   
 ## 세그먼트란?
-![image](https://user-images.githubusercontent.com/59358570/192132177-8a70cbf1-8cda-4b5d-ac7a-16a83910a02a.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132177-8a70cbf1-8cda-4b5d-ac7a-16a83910a02a.png)
   
   
 ## 3웨이 핸드셰이킹
-![image](https://user-images.githubusercontent.com/59358570/192132184-37945e56-359e-4424-942b-940a16a9c733.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132184-37945e56-359e-4424-942b-940a16a9c733.png)
   
   
 ## 4웨이 핸드셰이킹
-![image](https://user-images.githubusercontent.com/59358570/192132189-bb69c096-c869-4c24-8e33-546c45d1fae1.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132189-bb69c096-c869-4c24-8e33-546c45d1fae1.png)
   
 ## 패킷
-![image](https://user-images.githubusercontent.com/59358570/192132195-68fdb34a-57d8-4f7b-a0f3-a892e0c9d10b.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132195-68fdb34a-57d8-4f7b-a0f3-a892e0c9d10b.png)
   
 ## 프레임
-![image](https://user-images.githubusercontent.com/59358570/192132204-f0e896e8-90e2-40b5-9386-1ade764a5fc3.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132204-f0e896e8-90e2-40b5-9386-1ade764a5fc3.png)
   
 ## 4계층 다시 보기
-![image](https://user-images.githubusercontent.com/59358570/192132215-4ebcecf7-facc-4607-a2b4-d104db90753a.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132215-4ebcecf7-facc-4607-a2b4-d104db90753a.png)
   
    
 ## 데이터 통신이란
-![image](https://user-images.githubusercontent.com/59358570/192132222-3b432fe7-c3e9-48c3-92a1-a0adcf2d32d1.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132222-3b432fe7-c3e9-48c3-92a1-a0adcf2d32d1.png)
   
   
 ## 통신의 유형
-![image](https://user-images.githubusercontent.com/59358570/192132236-e693f669-cefc-4293-a5dc-6f68bb47426d.png){: width="600"}
+![image](https://user-images.githubusercontent.com/59358570/192132236-e693f669-cefc-4293-a5dc-6f68bb47426d.png)
   
