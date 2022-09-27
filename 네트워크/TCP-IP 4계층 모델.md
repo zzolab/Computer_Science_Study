@@ -6,8 +6,7 @@ ex) 전화를 받으면 “여보세요?” 하고 받는 게 규율이다.
    
 인터넷은 너무도 복잡한 세계이다. 통신이 이루어지는 데 필요한 프로토콜은 매우 많다.
    
-![image](https://user-images.githubusercontent.com/59358570/192132062-a2271420-b9e3-4980-a42c-16ba44190282.png)
-   
+<img src="https://user-images.githubusercontent.com/59358570/192132062-a2271420-b9e3-4980-a42c-16ba44190282.png" width="640"></img>
    
 ## 프로토콜은 누가 규정하는가?
    
@@ -38,7 +37,7 @@ TCP/IP계층에는 4개의 추상화된 계층이 존재한다.
     
    
 ### 애플리케이션 계층
-![image](https://user-images.githubusercontent.com/59358570/192407373-fb6390ab-d0f2-4c83-b19b-72d7c473cd8e.png)
+<img src="https://user-images.githubusercontent.com/59358570/192407373-fb6390ab-d0f2-4c83-b19b-72d7c473cd8e.png" width="360"></img>
 
 특정 서비스를 제공하기 위해 애플리케이션끼리 정보를 주고 받게 해줌.  
    
@@ -54,7 +53,7 @@ TCP, UDP, RTP, RTCP, QIC
    
    
 ### 인터넷 계층
-![image](https://user-images.githubusercontent.com/59358570/192132152-e33eedd9-ba7e-4515-8e1b-be098fafe9f6.png)
+<img src="https://user-images.githubusercontent.com/59358570/192132152-e33eedd9-ba7e-4515-8e1b-be098fafe9f6.png" width="320"></img>
 
 수신 측까지 데이터를 전달하기 위해 사용됨.  
    
