@@ -31,7 +31,7 @@ TCP/IP계층에는 4개의 추상화된 계층이 존재한다.
   
   
 ### 애플리케이션 계층
-![image](https://user-images.githubusercontent.com/59358570/192132139-663c2ff8-2a18-4edc-b313-8ae44359c519.png)
+![image](https://user-images.githubusercontent.com/59358570/192407373-fb6390ab-d0f2-4c83-b19b-72d7c473cd8e.png)
 
 특정 서비스를 제공하기 위해 애플리케이션끼리 정보를 주고 받게 해줌.  
   
