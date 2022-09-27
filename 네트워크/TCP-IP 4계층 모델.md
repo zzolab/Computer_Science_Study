@@ -96,11 +96,11 @@ Ethernet, PPP, Token Ring
 ## 통신의 유형
 ![image](https://user-images.githubusercontent.com/59358570/192132236-e693f669-cefc-4293-a5dc-6f68bb47426d.png)
   
-## CSMA/CA
+## CSMA/CA (Carrier-sense multiple access with collision avoidance)
 반이중화 통신 중 하나로, 데이터 송/수신 간 충돌을 방지하는 방식을 사용한다.
 1) 데이터 송신 전 무선 매체 살핌
 2) 캐리어 감지 : 회선이 비어있는가?
-3) IFS(Inter FrameSpcae) 랜덤한 시간만큼 기다림, 만약 무선 매체가 사용중이면 그 간격을 늘려가면서 기다림
+3) IFS(Inter FrameSpcae) : 랜덤한 시간만큼 기다림, 만약 무선 매체가 사용중이면 그 간격을 늘려가면서 기다림
 4) 회선이 사용 가능하면 데이터 송신
 
 ## 무선 통신 기술
