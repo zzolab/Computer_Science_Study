@@ -109,7 +109,7 @@ Ethernet, PPP, Token Ring
 - ESS(Extended Service Set) : 하나 이상의 연결된 BSS그룹. 장거리 무선 통신 제공, 더 많은 가용성, 이동성 지원
 <br/>
 <br/>
-- - -
-참고자료   
-1. [따라學IT] 02. 네트워크의 기준! 네트워크 모델 https://www.youtube.com/watch?v=y9nlT52SAcg - 가장 쉽게 설명하는 영상...   
-2.    
+* * *<br/>
+참고자료<br/>
+1. [따라學IT] 02. 네트워크의 기준! 네트워크 모델 https://www.youtube.com/watch?v=y9nlT52SAcg - 가장 쉽게 설명하는 영상...<br/>
+2.    <br/>
