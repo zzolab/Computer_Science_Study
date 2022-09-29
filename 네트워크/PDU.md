@@ -69,5 +69,5 @@ ex2. 네트워크 계층의 IP = IP 패킷
 ## 5. 실습
 
 - curl 명령을 통한 PDU 테스팅 : https://reqbin.com/curl
-- curl www.googl.com
+- curl www.google.com
 ![image](https://user-images.githubusercontent.com/89024993/192350628-9993c5b4-f110-49bd-8903-387d6767e755.png)
