@@ -12,10 +12,11 @@
 
 - IPv4 주소 표기할 때 4개의 옥텟 단위로 나뉨
 - 알아볼 수 있도록 8비트 옥텟을 10진수로 표기
-  - ![Untitled](https://user-images.githubusercontent.com/14107090/193401316-87edef1b-0d91-4fc8-a5ed-bb300bee9f57.png)
+  ![Untitled](https://user-images.githubusercontent.com/14107090/193401316-87edef1b-0d91-4fc8-a5ed-bb300bee9f57.png)
 - 네트워크 주소와 호스트 주소 구분 경계점이 고정되어 있지 않음
 
 ## 클래스풀
+
 ![Untitled](https://user-images.githubusercontent.com/14107090/193401389-e67e1f48-df01-4bb1-af8c-d6c8d7e02a9f.png)
 ![Untitled](https://user-images.githubusercontent.com/14107090/193401405-a566202e-83a1-4b46-aafe-ebdddccb8d83.png)
 
@@ -78,8 +79,7 @@ C클래스: $2^8-2개$
   - 2진수 0인 부분은 모두 0으로 변경
 
 ![Untitled](https://user-images.githubusercontent.com/14107090/193401444-85100def-6f2c-4369-ab3c-a41a4e279957.png)
-  출처 : [https://greendreamtrre.tistory.com/248](https://greendreamtrre.tistory.com/248)
-  
+출처 : [https://greendreamtrre.tistory.com/248](https://greendreamtrre.tistory.com/248)
 
 ### 서브넷 마스크 표현 방법
 
@@ -124,7 +124,7 @@ C클래스: $2^8-2개$
 > 퀴즈: IP주소의 호스트 부분은?
 
 - Host ID를 Network ID로 변환하기 위해 1bit씩 가져올 때마다 네트워크의 크기는 2의 배수로 증가하고 “네트워크 당” 호스트의 수는 2로 나누어지게 된다.
-![Untitled](https://user-images.githubusercontent.com/14107090/193401472-4296658d-bd29-49fe-b62d-1f5245ce9ca6.png)
+  ![Untitled](https://user-images.githubusercontent.com/14107090/193401472-4296658d-bd29-49fe-b62d-1f5245ce9ca6.png)
 
 출처 : [https://velog.io/@soo5717/subnet-mask-and-subnetting](https://velog.io/@soo5717/subnet-mask-and-subnetting)
 
