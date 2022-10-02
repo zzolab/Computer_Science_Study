@@ -26,8 +26,5 @@
   보안 문제(ARP 스푸핑)-> NDP(주변(인접) 노드들을 발견/탐색/변경검출/유지하기 위한 정보를 요청하거나 제공)로 보안 문제 보완 (이것도 SEND 프로토콜로 추가 보완?)
 
 ## 참고자료
-[서브넷_마스크_설명_나무위키](https://namu.wiki/w/%EC%84%9C%EB%B8%8C%EB%84%B7%20%EB%A7%88%EC%8A%A4%ED%81%AC)  
-[넷마스크_네이버](https://terms.naver.com/entry.naver?docId=830487&cid=42344&categoryId=42344)  
-[게이트웨이_라우터_차이](https://puzzle-puzzle.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9A%A9%EC%96%B4-%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4-Gateway-%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4%EC%99%80-%EB%9D%BC%EC%9A%B0%ED%84%B0-%EC%B0%A8%EC%9D%B4%EC%A0%90)
 [APR_RARP](https://luckyking.tistory.com/entry/ARPRARP-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9CTCPIP-%EC%9D%B8%ED%84%B0%EB%84%B7-%EA%B3%84%EC%B8%B5)  
 [NDP_용어해설](http://www.ktword.co.kr/test/view/view.php?no=2954)
