@@ -1,6 +1,7 @@
 # HTTP/3
 - HTTP(Hypertext Transfer Protocol)의 세 번째 메이저 버전 
 - TCP 기반의 HTTP/1, HTTP/2와는 다르게 UDP 기반의 프로토콜인 QUIC을 사용하여 통신하는 프로토콜
+
   <img width="413" alt="image" src="https://user-images.githubusercontent.com/66233687/193581643-f84b7cfc-f398-4eca-82e4-8ca60ad39e4e.png">
 
 ***
@@ -53,7 +54,7 @@
 ### 4. 보안 강화
 - 기존에 암호화되지 않던 영역까지 암호화에 포함해 보안성을 더 강화
 
-![image](https://user-images.githubusercontent.com/66233687/193583203-691bad79-2cc0-448b-b166-b4305c5868b7.png)
+  ![image](https://user-images.githubusercontent.com/66233687/193583203-691bad79-2cc0-448b-b166-b4305c5868b7.png)
 
 
 ### 5. 기타
