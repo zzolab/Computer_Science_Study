@@ -95,3 +95,6 @@
 - 실습 사이트 : https://www.base64-image.de/
 
 > `인코딩` : 정보의 형태나 형식을 표준화, 보안, 처리 속도 향상, 저장 공간 절약 등을 위해 다른 형태나 형식으로 변환하는 것
+
+![image](https://user-images.githubusercontent.com/89024993/193594515-c83ccd18-cb4b-42fb-adc1-f07b7ba0379e.png)
+
