@@ -1,26 +1,38 @@
-# HTTP
+# HTTP : HyperText Transfer Protocol
 
-- HyperText Transfer Protocol의 약자
-- 최상위 애플리케이션 계층에서 이뤄짐
-- Web상에서 Client와 Server가 통신하기 위한 포로토콜
+- 최상위 '애플리케이션 계층'에서 이뤄짐
+- W3(World Wide Web)상에서 정보를 주고받는 프로토콜
+- Client와 Server가 사이에서 이루어지는 요청/응답 프로토콜
+- HTTP/2 까지
+    - TCP 연결 기반 위에서 동작
+- HTTP/3 이후
+    - UDP 사용
 
-
-# 2.5.1 HTTP/1.0
+    - 비연결성 프로토콜
+        - 한 번 연결로 한 번의 요청과 응답만 보낸 후 연결 끊음
 
 
 # 그전에! HTTP/0.9
-- 단순한 GET 통신 가능
-- HTTP Header가 없어서 HTML 문서만 전송 가능(다른 유형은 전송 불가)
+- From 1991
+- GET 메소드만 가능
+- HTTP Header가 없어서 HTML 문서만 전송 가능
+    - 다른 유형의 문서 전송 불가
 - 상태 or 오류 코드 없음
     - 문제 상황 시 해당 파일 내부에 문제에 대한 설명을 추가하여 보냄
 
 
-(TCP)
+(HTTP 예시 사진)
 
 
 
-- TCP 전송 프로토콜을 사용함
-- 단순히 open/operation/close 방식을 취하고 있는 단순한 구조
+# 2.5.1 HTTP/1.0
+
+- From 1996
+- POST, HEAD 메소드 추가 됨
+- 상태코드가 응답 첫 줄에 포함되어 요청에 대한 성공/실패 여부를 바로 확인 가능
+- HTTP Header 추가
+    - Header의 'Content-Type' 기능으로 HTML 파일 이외의 다른 문서도 전송 가능
+
 - 한 연결당 하나의 요청을 처리하도록 설계됨
     - TCP Connection당 하나의 URL만 fetch하며, 매번 request/response가 끝나면 연결이 끊김
     - 필요할 때마다 다시 연결해야하는 단점이 있어 속도가 현저히 느림
