@@ -8,6 +8,7 @@
     - IP 주소를 통해 동 or 구까지의 위치 추적 가능
     - IP 주소를 기반으로 위치를 찾는 사이트
         - https://mylocation.co.kr/
-        - http://ip-api.com/
+        - https://iplogger.org/my-ip/
 
-![image](https://user-images.githubusercontent.com/89024993/193595937-156dc277-f7f1-4ebf-8124-404c07f65fde.png)
+![image](https://user-images.githubusercontent.com/89024993/193806444-5beaa303-a6aa-4c87-9bca-9c1319b09dfd.png)
+
