@@ -19,7 +19,7 @@ HTTP/2의 경우 리소스간 의존관계(우선순위)를 설정하여 이런 
 <br/><br/>
 ### 허프만 코딩(Huffman coding)
 ![image](https://user-images.githubusercontent.com/59358570/193718307-738c273f-0d42-43ee-809f-1c1ba4f90534.png)   
-(... 중략 ...)
+(... 중략 ...)<br/>
 ![image](https://user-images.githubusercontent.com/59358570/193718204-eaa0d97b-fe9a-4239-b068-2fbcfdc70103.png)   
 문자열을 문자 단위로 쪼개 빈도수를 세어 빈도가 높은 정보는 적은 비트 수를 사용하여 표현하고 빈도가 낮은 정보는 비트 수를 많이 사용하여 표현해서 전체 데이터의 표현에 필요한 비트 양을 줄이는 원리
 <br/><br/>
@@ -35,3 +35,4 @@ PUSH_PROMISE 라고 부르며 PUSH_PROMISE를 통해서 서버가 전송한 리�
 [참고자료]
 1. [ziyoonee - HTTP/1부터 HTTP/3까지 알아보기](https://velog.io/@ziyoonee/HTTP1-%EB%B6%80%ED%84%B0-HTTP3-%EA%B9%8C%EC%A7%80-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
 2. [동빈나 - 허프만 코드](https://www.youtube.com/watch?v=haXz9MEOGbo)
+3. [입코딩 - 허프만(Huffman) 트리를 이용한 텍스트 압축](https://lipcoder.tistory.com/187)
