@@ -41,6 +41,7 @@ Data URI Scheme은 HTML문서내 이미지 리소스를 Base64로 인코딩된 �
    
       
 ## SPDY(speedy)의 등장   
+![image](https://user-images.githubusercontent.com/59358570/193715188-b3efec4a-cda9-4d20-a535-24a10aaa01c6.png)
 Google은 Latency 관점에서 HTTP를 고속화한 SPDY라는 새로운 프로토콜을 구현했다.   
 HTTP를 대치하는 프로토콜이 아닌, HTTP를 통한 전송을 재정의하는 방식으로 구현되었다.   
 따라서 전송 계층의 구현만 변경하면 기존 HTTP 서버 프로그램을 그대로 SPDY에서 사용할 수 있다.   
