@@ -9,8 +9,17 @@ HTTP/1.1부터는 이미 연결되어 있는 TCP 연결을 재사용하는 Keep-
 중간중간마다 거쳐야 하는 Handshake 과정이 생략되므로 성능 향상을 기대 할 수 있다.
    
 하지만 문서 안에 포함된 다수의 리소스(이미지, CSS파일, SCRIPT파일)를 처리하려면 요청할 리소스 개수에 비례해서 대기 시간이 길어진다.
+즉 완전한 멀티플렉싱이 아닌 응답처리를 미루는 방식이므로 각 응답의 처리는 순차적으로 처리되며, 결국 후순위의 응답은 지연될 수 밖에 없다.
 <br/><br/>
 
+## 특장점
+### Host Header
+HTTP/1.0은 1개의 IP = 1개의 도메인 HTTP/1.1에서는 Host 헤더의 추가로,    
+Virtual Hosting이 가능해져 1개의 IP = N개의 도메인 지원    
+   
+### 인증 절차 추가   
+proxy-authentication, proxy-authorization 헤더 추가   
+    
 ## HOL Blocking  
 Head Of Line Blocking.   
 네트워크에서 같은 큐에 있는 패킷이 그 첫번 째 패킷에 의해 지연될 때 발생하는 성능 저하 현상
@@ -41,7 +50,7 @@ Data URI Scheme은 HTML문서내 이미지 리소스를 Base64로 인코딩된 �
    
       
 ## SPDY(speedy)의 등장   
-![image](https://user-images.githubusercontent.com/59358570/193715188-b3efec4a-cda9-4d20-a535-24a10aaa01c6.png)
+![image](https://user-images.githubusercontent.com/59358570/193715188-b3efec4a-cda9-4d20-a535-24a10aaa01c6.png)   
 Google은 Latency 관점에서 HTTP를 고속화한 SPDY라는 새로운 프로토콜을 구현했다.   
 HTTP를 대치하는 프로토콜이 아닌, HTTP를 통한 전송을 재정의하는 방식으로 구현되었다.   
 따라서 전송 계층의 구현만 변경하면 기존 HTTP 서버 프로그램을 그대로 SPDY에서 사용할 수 있다.   
