@@ -14,8 +14,8 @@ HTTP/1.1부터는 이미 연결되어 있는 TCP 연결을 재사용하는 Keep-
 
 ## 특장점
 ### Host Header
-HTTP/1.0은 1개의 IP = 1개의 도메인 HTTP/1.1에서는 Host 헤더의 추가로,    
-Virtual Hosting이 가능해져 1개의 IP = N개의 도메인 지원    
+HTTP/1.0은 1개의 IP = 1개의 도메인.  
+HTTP/1.1에서는 Host 헤더의 추가로, Virtual Hosting이 가능해져 1개의 IP = N개의 도메인 지원     
    
 ### 인증 절차 추가   
 proxy-authentication, proxy-authorization 헤더 추가   
