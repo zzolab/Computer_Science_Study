@@ -43,7 +43,7 @@
 - 서버로부터 파일을 가져올 때마다 TCP의 3-웨이 핸드세이크를 계속 열어야 함
 - RTT가 증가하는 단점
     - 서버에 부담이 많이 감
-    - 사용자 응담 시간이 길어짐
+    - 사용자 응답 시간이 길어짐
 
 > `RTT` : 패킷이 목적지에 도달하고 나서 다시 출발지로 돌아오기까지 걸리는 시간, (Round Trip Time, 왕복 시간)
 
@@ -65,6 +65,8 @@
 - 이미지를 다운받기 위한 서버 요청 줄일 수 있음
 - 몇 개의 스프라이트 이미지(sprite image) 파일만을 관리하면 되는 장점
 
+![image](https://user-images.githubusercontent.com/89024993/193835426-42e3e703-b6e8-4354-943b-2fd23c0e8474.png)
+(태상쌤-실제 현업 자료)
 
 ![image](https://user-images.githubusercontent.com/89024993/193591216-4728bf6c-83e0-417e-8c1f-f5c25e6dedbe.png)
 
