@@ -90,7 +90,3 @@ for (let i = 0; i < dept.length; i++) {
 
 - [[DB] 데이터베이스 NESTED LOOPS JOIN (중첩 루프 조인)에 대하여](https://coding-factory.tistory.com/756)
 - [오라클 NL Join, Sort Merge Join, Hash Join 특징 총정리](https://hoon93.tistory.com/46)
-
----
-
-📅 2022-10-24
