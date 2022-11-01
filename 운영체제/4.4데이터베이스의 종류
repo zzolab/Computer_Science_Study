@@ -1,0 +1,123 @@
+# 관계형 데이터베이스
+
+## MySQL
+
+GPL 라이선스인 무료 버전은 커뮤니티 에디션(Community Edition)이라는 이름이고, 유료버전은 Standard, Enterprise, Cluster Carrier Grade라는 세가지 제품군으로 되어 있다. 유료 버전의 년간 사용료는 $2,000 ~ $10,000 달러 사이
+
+- MySQL is an open-source database, so you don't have to pay a single penny to use it.
+- MySQL is a very powerful program that can handle a large set of functionality of the most expensive and powerful database packages.
+- MySQL is customizable because it is an open-source database, and the open-source GPL license facilitates programmers to modify the SQL software according to their own specific environment.
+- MySQL is quicker than other databases, so it can work well even with the large data set.
+- MySQL supports many operating systems with many languages like PHP, PERL, C, C++, JAVA, etc.
+- MySQL uses a standard form of the well-known SQL data language.
+- MySQL is very friendly with PHP, the most popular language for web development.
+- MySQL supports large databases, up to 50 million rows or more in a table. The default file size limit for a table is 4GB, but you can increase this (if your operating system can handle it) to a theoretical limit of 8 million terabytes (TB).
+
+출처: [https://www.javatpoint.com/mysql-tutorial](https://www.javatpoint.com/mysql-tutorial)
+
+공식사이트 : [https://www.mysql.com/](https://www.mysql.com/)
+
+### Tutorial
+
+[https://opentutorials.org/course/195](https://opentutorials.org/course/195)
+
+[https://www.javatpoint.com/mysql-tutorial](https://www.javatpoint.com/mysql-tutorial)
+
+## ****MariaDB****
+
+MySQL이 오라클에 인수된 뒤, 불확실한 라이선스 문제를 해결하려고 나온 오픈 소스 RDBMS
+
+공식사이트 [https://mariadb.org/](https://mariadb.org/)
+
+MariaDB는 MySQL 커뮤니티 버전을 포크(fork)하여 사용하고 있습니다. 따라서 서버는 GPL 라이센스로 배포되어집니다. 클라이언트와 라이브러리는 LGPL 라이센서를 따릅니다. MariaDB는 GNU GPLv2 라이센스로만 배포되며 상용버전이 따로 없으며 MySQL을 포크해서 사용하기 때문에 자체적으로 상용버전을 출시할 수 도 없습니다.
+
+출처 : [https://sabarada.tistory.com/164](https://sabarada.tistory.com/164)
+
+## PostgreSQL
+
+- Nested transactions (savepoints)
+- Point in time recovery
+- Online/hot backups, Parallel restore
+- Rules system (query rewrite system)
+- B-tree, R-tree, hash, GiST method indexes
+- Multi-Version Concurrency Control (MVCC)
+- Tablespaces
+- Procedural Language
+- Information Schema
+- I18N, L10N
+- Database & Column level collation
+- Array, XML, UUID type
+- Auto-increment (sequences),
+- Asynchronous replication
+- LIMIT/OFFSET
+- Full text search
+- SSL, IPv6
+- Key/Value storage
+- Table inheritance
+
+출처 : [https://d2.naver.com/helloworld/227936](https://d2.naver.com/helloworld/227936)
+
+공식사이트 : [https://www.postgresql.org/](https://www.postgresql.org/)
+
+### Json data type
+
+```sql
+CREATE TABLE Purchase (  
+    Purchase_id serial NOT NULL PRIMARY KEY,  
+    Purchase_description json NOT NULL  
+);
+```
+
+```sql
+INSERT INTO Purchase (Purchase_description)  
+VALUES('{ "purchaser": "Olivia Smith", "items": {"product": "iphone11 pro max","qty": 1}}');
+```
+
+[https://www.javatpoint.com/postgresql-json](https://www.javatpoint.com/postgresql-json)
+
+### Tutorial
+
+[https://www.postgresql.org/docs/current/tutorial.html](https://www.postgresql.org/docs/current/tutorial.html)
+
+[https://www.javatpoint.com/postgresql-tutorial](https://www.javatpoint.com/postgresql-tutorial)
+
+# NoSQL 데이터베이스
+
+## MongoDB
+
+### 라이선스
+
+Server Side Public License(SSPL)로 변경했다.
+
+SSPL은, 서버에서 프로그램을 실행할 경우 기존 AGPL에서는 라이선스 대상 프로그램의 소스코드만을 공개하면 되었던 것을 수정하여, 프로그램이 'Software as a Service' 형태로 제공될 경우 그 프로그램과 연동되어 실행되는 관리 소프트웨어 등을 모두 공개해야 한다는 조항으로 바꾸었다.
+
+출처 : [https://namu.wiki/w/MongoDB](https://namu.wiki/w/MongoDB)
+
+
+출처 : [https://www.mongodb.com/docs/manual/core/databases-and-collections/](https://www.mongodb.com/docs/manual/core/databases-and-collections/)
+
+공식사이트 : [https://www.mongodb.com/](https://www.mongodb.com/)
+
+## redis
+
+Redis is an open source (BSD licensed), in-memory **data structure store** used as a database, cache, message broker, and streaming engine.
+
+공식사이트 : [https://redis.io/](https://redis.io/)
+
+### 인메모리 데이터베이스란?
+
+**인메모리 데이터베이스**는 컴퓨터의 주 메모리에 모든 조직 또는 개인의 데이터를 저장
+
+출처 : [https://www.tibco.com/ko/reference-center/what-is-an-in-memory-database](https://www.tibco.com/ko/reference-center/what-is-an-in-memory-database)
+
+### 장점
+
+다양한 자료 구조
+
+- 영속성을 지원하는 인메모리 데이터 저장소
+- 읽기 성능 증대를 위한 서버 측 복제를 지원
+- 쓰기 성능 증대를 위한 클라이언트 측 샤딩(Sharding) 지원
+- 다양한 서비스에서 사용되며 검증된 기술
+- 문자열, 리스트, 해시, 셋, 정렬된 셋과 같은 다양한 데이터형을 지원. 메모리 저장소임에도 불구하고 많은 데이터형을 지원하므로 다양한 기능을 구현
+
+출처 : [https://devlog-wjdrbs96.tistory.com/374](https://devlog-wjdrbs96.tistory.com/374)
